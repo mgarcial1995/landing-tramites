@@ -1,49 +1,66 @@
+"use client";
+import { useState, useEffect } from 'react'
+import { certs, workDescription, areas, services } from './constants/constants.js'
 
+import FloatNavbar from './ui/floatNavbar.js'
+import BoxService from './ui/boxService.js'
 import Navbar from './ui/navbar.js'
 import Footer from './ui/footer.js'
 import Image from 'next/image'
 
-export default function Home() {
-  
-  const certs = [
-    { width: 400, height: 400, src:'/certificados/cert1.png', alt: 'Certificado 1' },
-    { width: 400, height: 400, src:'/certificados/cert2.png', alt: 'Certificado 2' },
-    { width: 400, height: 400, src:'/certificados/cert3.png', alt: 'Certificado 3' },
-    { width: 400, height: 400, src:'/certificados/cert4.png', alt: 'Certificado 4' },
-  ]
-  const workDescription = [
-    { width: 250, height: 250, src:'/description/atencion-online.png', alt: 'atencion-online', text: 'SELECCIONE EL SERVICIO QUE DESEA EJECUTAR EN </br> PERÚ' },
-    { width: 250, height: 250, src:'/description/documentos-virtuales.png', alt: 'documentos-virtuales', text: 'BRINDE LOS REQUERIMIENTOS NECESARIOS PARA EL </br> SERVICIO' },
-    { width: 250, height: 250, src:'/description/documentos-online.png', alt: 'documentos-online', text: 'LOS DOCUMENTOS TRAMITADOS LE LLEGARAN EN EL PLAZO PACTADO' },
-  ]
+const listNavbar = [
+  {label: "Servicios", src: "#", active: false },
+  {label: "Opiniones", src: "#", active: false },
+  {label: "Contacto", src: "#", active: false },
+]
 
-  const areas = [
-    { width: 250, height: 250, src:'/servicios/partidas.png', alt: '', text: 'PARTIDAS' },
-    { width: 250, height: 250, src:'/servicios/antecedentes.png', alt: '', text: 'ANTECEDENTES' },
-    { width: 250, height: 250, src:'/servicios/traspasos.png', alt: '', text: 'LEGALES' },
-    { width: 250, height: 250, src:'/servicios/matrimonio.png', alt: '', text: 'MATRIMONIO' },
-    { width: 250, height: 250, src:'/servicios/reniec.png', alt: '', text: 'RENIEC' },
-    { width: 250, height: 250, src:'/servicios/salud.png', alt: '', text: 'SALUD' },
-    { width: 250, height: 250, src:'/servicios/estudio.png', alt: '', text: 'ESTUDIOS' },
-    { width: 250, height: 250, src:'/servicios/juicio.png', alt: '', text: 'JUICIOS' },
-    { width: 250, height: 250, src:'/servicios/firma.png', alt: '', text: 'FIRMA' },
-  ]
-  
+export default function Home() {
+
+  const [prevScrollPos, setPrevScrollPos] = useState(window.scrollY);
+  const [showFloatNavbar, setShowFloatNavbar] = useState(false);
+  const [showBoxService, setShowBoxService] = useState(false);
+  const [listNavbarPrincipal, setListNavbarPrincipal] = useState(listNavbar);
+
+  const [listSelectArea, setListSelectArea] = useState([])
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      setShowFloatNavbar(currentScrollPos > 100 && currentScrollPos !==  0);
+      setPrevScrollPos(currentScrollPos);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [prevScrollPos]);
+
+  const selectAreaServices = (area) => {
+    const selectArea = services.filter(el => el.group === area)
+    const transformArea = selectArea.map((el, i) => {
+      if(i===0) {el.active = true}
+      else{ el.active = false}
+      return el
+    })
+    setListSelectArea(transformArea)
+    // console.log(transformArea)
+    setShowBoxService(true)
+  }
 
   return (
-    <main className="flex min-h-screen flex-col items-center">
-
-      {/* <div className={`floatNavbar ${isScrolled ? 'scrolled' : ''}`}>
-        <FloatNavbar />
-      </div> */}
+    <main className="w-full h-auto flex flex-col items-center">
+      {
+        showFloatNavbar && <FloatNavbar />
+      }
+      { showBoxService && <BoxService setShowBoxService={setShowBoxService} listSelectArea={listSelectArea} />}
       <div className='container flex min-h-screen flex-col items-center'>
-        <Navbar />
+        <Navbar listNavbarItems={listNavbarPrincipal} />
         <div className='w-full flex justify-center items-center'>
           <Image width={1000} height={1000} className='w-full' src="/banner.png" alt='banner' />
         </div>
-        <div className="w-11/12 h-auto bg-[#D9D9D9] py-8 ">
+        <div className="w-full h-auto bg-[#D9D9D9] py-8 ">
           <h2 className='font-black tracking-wider text-red-600 text-4xl text-center'>CERTIFICADOS</h2>
-          <div className='w-full flex justify-around mt-8 items-center px-10'>
+          <div className='w-full flex justify-between mt-8 items-center px-10'>
             {
               certs.map(cert => {
                 return (
@@ -86,9 +103,9 @@ export default function Home() {
             {
               areas.map(area => {
                 return (
-                  <div className='relative w-36 h-36 m-16 ' key={area.alt}>
+                  <div onClick={()=>selectAreaServices(area.id)} className='relative w-44 h-44 m-24 cursor-pointer' key={area.alt}>
                     <Image
-                      className=' absolute'
+                      className='absolute w-full h-auto'
                       width={area.width} 
                       height={area.height} 
                       src={area.src} 
