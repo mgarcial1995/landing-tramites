@@ -16,7 +16,7 @@ const listNavbar = [
 
 export default function Home() {
 
-  const [prevScrollPos, setPrevScrollPos] = useState(window.scrollY);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [showFloatNavbar, setShowFloatNavbar] = useState(false);
   const [showBoxService, setShowBoxService] = useState(false);
   const [listNavbarPrincipal, setListNavbarPrincipal] = useState(listNavbar);
@@ -24,6 +24,7 @@ export default function Home() {
   const [listSelectArea, setListSelectArea] = useState([])
 
   useEffect(() => {
+    if (typeof window !== 'undefined') {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
       setShowFloatNavbar(currentScrollPos > 100 && currentScrollPos !==  0);
@@ -33,6 +34,7 @@ export default function Home() {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
+  }
   }, [prevScrollPos]);
 
   const selectAreaServices = (area) => {
