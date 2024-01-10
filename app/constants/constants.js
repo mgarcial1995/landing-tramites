@@ -5,8 +5,7 @@ export const services = [
         img: '/servicioDetalle/servicio.png',
         alt: '',
         nameService: 'Partida de Nacimiento/Bautizo',
-        description: 'Realizamos la obtención de la partida de nacimiento y/o bautizo del Perú debidamente certificada por las autoridades competentes, incluyendo visado de Relaciones Exteriores y Apostilla de la Haya, para hacer uso del documento en el exterior.',
-        serviceExtra: 'Obtención de la partida de Lima o Provincias.\n Mantenerlo informado de los avances vía correo electrónico.\n Escaneo del documento gestionado antes de ser enviado a su destino.\n Envió por correo certificado del documento al país que nos indique.',
+        description: 'Facilitamos la obtención de certificados oficiales de nacimiento o bautizo en Perú, con visado de Relaciones Exteriores y Apostilla de la Haya, posibilitando la validez internacional de los documentos. Nuestro servicio abarca la obtención de partidas de Lima o provincias, con actualizaciones por correo electrónico. Además, realizamos una digitalización previa al envío del documento, el cual se despacha mediante correo certificado a la ubicación designada por usted.',
         requirements: [
             'Nombre completo del peruano en el extranjero (nombre de los padres).',
             'Municipalidad, Parroquia o Capilla donde se inscribió el nacimiento (indicar provincia y distrito).',
@@ -21,8 +20,7 @@ export const services = [
         img: '/servicioDetalle/servicio.png',
         alt: '',
         nameService: 'Partida de Matrimonio',
-        description: 'Realizamos la obtención de la partida de Matrimonio o Religioso del Perú debidamente certificada por las autoridades competentes, incluyendo visado de Relaciones Exteriores y Apostilla de la Haya, para hacer uso del documento en el exterior.',
-        serviceExtra: 'Obtención de la partida de Lima o Provincias.\n Mantenerlo informado de los avances vía correo electrónico.\n Escaneo del documento gestionado antes de ser enviado a su destino.\n Envió por correo certificado del documento al país que nos indique.',
+        description: 'Obtención de partidas de matrimonio civil o religiosas en Perú, con certificación oficial, visado de Relaciones Exteriores y Apostilla de la Haya, asegurando validez internacional. Incluimos la adquisición de partidas de nacimiento de Lima o provincias, con actualizaciones por correo electrónico. Previo al envío, escaneamos los documentos y los despachamos mediante correo certificado al país de su elección.',
         requirements: [
             'Nombre completo de los contrayentes.',
             'Municipalidad, Iglesia, Capilla o Parroquia donde se celebró el matrimonio (indicar provincia y distrito).',
@@ -37,8 +35,7 @@ export const services = [
         img: '/servicioDetalle/servicio.png',
         alt: '',
         nameService: 'Partida de Defuncion',
-        description: 'Realizamos la obtención de la partida de Defunción del Perú debidamente certificada por las autoridades competentes, incluyendo visado de Relaciones Exteriores y Apostilla de la Haya, para hacer uso del documento en el exterior.',
-        serviceExtra: 'Obtención de la partida de Lima o Provincias.\n Mantenerlo informado de los avances de la gestión vía correo electrónico.\n Escaneo del documento gestionado antes de ser enviado a su destino.\n Envió por correo certificado del documento al país que nos indique.',
+        description: 'Realizamos la obtención de certificados de defunción en Perú con certificación oficial, visado de Relaciones Exteriores y Apostilla de la Haya para validez internacional. Nuestro servicio abarca la adquisición de partidas de nacimiento de Lima o provincias, con actualizaciones por correo electrónico. Previo al envío, escaneamos los documentos y los despachamos mediante correo certificado al país de su elección, manteniéndolo informado sobre el proceso.',
         requirements: [
             'Nombre completo del causante (persona fallecida).',
             'Municipalidad, Iglesia, Capilla o Parroquia donde se inscribió el fallecimiento (indicar provincia y distrito).',
@@ -53,8 +50,7 @@ export const services = [
         img: '/servicioDetalle/servicio.png',
         alt: '',
         nameService: 'Antecedentes Judiciales',
-        description: 'Este tramite consiste en la obtención de un documento oficial expedido por el Poder Judicial a través de su sede central ubicada en la ciudad de Lima, mediante el cual se certifica si una persona registra o no sentencias condenatorias impuestas como consecuencia de la comisión de un delito. El documento contará con la certificación de las autoridades competentes, incluyendo visado de Relaciones Exteriores y Apostilla de la Haya, para hacer uso del documento en el exterior.',
-        serviceExtra: 'Obtención del documento.\n Mantenerlo informado de los avances de la gestión vía correo electrónico.\n Escaneo del documento gestionado antes de ser enviado a su destino.\n Envió por correo certificado del documento al país que nos indique.',
+        description: 'Gestionamos la obtención de un documento oficial del Poder Judicial de Lima que certifica la existencia de sentencias condenatorias por delitos. El documento, certificado por autoridades competentes con visado de Relaciones Exteriores y Apostilla de la Haya para validez internacional, es adquirido como parte de nuestro servicio. Mantenemos a nuestros clientes informados mediante actualizaciones por correo electrónico, escaneamos el documento antes de enviarlo y lo despachamos por correo certificado al país que elijan.',
         requirements: [
             'Nombre completo del solicitante.',
             'Nombre de los padres.',
@@ -72,8 +68,7 @@ export const services = [
         img: '/servicioDetalle/servicio.png',
         alt: '',
         nameService: 'Antecedentes Policiales',
-        description: 'Este tramite consiste en la obtención de un documento oficial expedido por la policía mediante el cual se certifica si una persona registra cualquier detención o intervención policial que haya supuesto la apertura de diligencias policiales, sin importar si ello finalmente desemboca en condena o inicio de juicio.',
-        serviceExtra: 'Obtención del documento.\n Representación personalizada durante toda la gestión.\n Mantenerlo informado de los avances del trámite vía correo electrónico.\n Escaneo del documento gestionado antes de ser enviado a su destino.\n Envió por correo certificado del documento al país que nos indique.',
+        description: 'Obtenemos un documento oficial de la policía que certifica los registros de detenciones o intervenciones policiales, sin importar el resultado final. Este documento, certificado por autoridades con visado de Relaciones Exteriores y Apostilla de la Haya para validez internacional, forma parte de nuestro servicio. Facilitamos la obtención del documento con representación personalizada, proporcionamos actualizaciones por correo electrónico, realizamos un escaneo previo al envío y despachamos el documento por correo certificado al país de su elección.',
         requirements: [
            'Nombre completo del solicitante.',
            'Nombre de los padres.',
@@ -92,8 +87,7 @@ export const services = [
         img: '/servicioDetalle/servicio.png',
         alt: '',
         nameService: 'Antecedentes Penales',
-        description: 'Este tramite consiste en la obtención de un documento oficial expedido por el Registro Nacional de Condenas del Poder Judicial donde se registran aquellos delitos que han sido declarados por sentencia judicial firme sobre hechos tipificados en el vigente Código Penal.El documento contará con la certificación de las autoridades competentes, incluyendo visado de Relaciones Exteriores y Apostilla de la Haya, para hacer uso del documento en el exterior.',
-        serviceExtra: 'Obtención del documento.\n Representación personalizada durante toda la gestión.\n Mantenerlo informado de los avances del trámite vía correo electrónico.\n Escaneo del documento gestionado antes de ser enviado a su destino.\n Envió por correo certificado del documento al país que nos indique.',
+        description: 'Administramos la obtención de un documento oficial del Registro Nacional de Condenas del Poder Judicial, que registra delitos con sentencias firmes según el Código Penal. Este documento, certificado por autoridades con visado de Relaciones Exteriores y Apostilla de la Haya para validez internacional, es gestionado como parte de nuestro servicio. Incluimos representación personalizada en la obtención del documento, actualizaciones por correo electrónico, escaneo previo al envío y despacho por correo certificado al país de su elección.',
         requirements: [
            'Nombre completo del solicitante.',
            'Nombre de los padres.',
@@ -110,8 +104,7 @@ export const services = [
         img: '/servicioDetalle/servicio.png',
         alt: '',
         nameService: 'Divorcio Rápido',
-        description: 'Consiste en la disolución del matrimonio por mutuo acuerdo, de peruanos casados con extranjeros sea en Perú o el exterior. Este divorcio se podrá realizar en el plazo de 3 meses, siempre que se cumplan con todos los requisitos.',
-        serviceExtra: 'El envío de las minutas para que se gestionen poderes de representación ante el consulado, el pago de las tasas correspondientes, la representación legal durante todo el proceso, la obtención de la resolución de separación de cuerpos, la resolución de divorcio, así como su correspondiente anotación en la partida de matrimonio (RENIEC) y la inscripción del divorcio en los Registros Públicos (SUNARP).\n Durante todo el proceso del divorcio enviamos vía correo electrónico los avances de la gestión, para mantenerlo informado.',
+        description: 'Facilitamos la disolución amistosa de matrimonios entre peruanos y extranjeros, ya sea contraído en Perú o en el extranjero, completando el divorcio en tres meses, siempre que se cumplan los requisitos. Nuestro servicio abarca la representación consular integral, gestionando desde el envío de documentos hasta la representación legal durante el proceso. Nos encargamos de obtener la resolución de separación de cuerpos, el divorcio, su anotación en RENIEC, y la inscripción en SUNARP. Mantenemos a nuestros clientes informados con actualizaciones vía correo electrónico a lo largo de todo el procedimiento, garantizando un servicio eficiente y transparente.',
         requirements: [
             'Tener más de 2 años de casados (se prueba con la partida de matrimonio).',
             'Copia del DNI vigente (sin multas) de cada uno de los esposos.',
@@ -127,8 +120,7 @@ export const services = [
         img: '/servicioDetalle/servicio.png',
         alt: '',
         nameService: 'Juicio de Alimentos',
-        description: 'Este juicio consiste en dar inicio a un proceso judicial contra el Padre del menor ante la Corte de Perú o lo que llamamos Poder Judicial, con la finalidad de lograr una pensión de alimentos a favor de un menor, tomando en cuenta que la obligación de dar alimentos en Perú, es hasta los 28 años siempre que el hijo este realizando estudios con notas satisfactorias. En palabras sencillas debo decir que este proceso busca conseguir que padres irresponsables que regresaron a Perú con engaños, o falsas promesas, se les obligue a pasar una pensión de alimentos a los hijos que dejaron a su suerte en el extranjero.',
-        serviceExtra: 'Representación legal en todo el proceso de alimentos.\n Presentación de los escritos pertinentes.\n Entrevistas con el juez a cargo del proceso.',
+        description: 'Este proceso legal persigue la obtención de una pensión alimenticia para un menor mediante una acción judicial contra el padre en la Corte de Perú. La obligación alimentaria se extiende hasta los 28 años si el hijo está estudiando con buen rendimiento. La iniciativa legal busca responsabilizar a padres irresponsables que abandonaron a sus hijos en el extranjero, garantizando su cumplimiento con el deber de proporcionar apoyo económico. Nuestro servicio comprende una representación legal integral en el proceso de alimentos, presentando los documentos necesarios y participando en entrevistas con el juez a cargo del caso.',
         requirements: [
            'Nombre completo del ciudadano peruano.',
            'Partida de nacimiento de hijo(s) inscrita en el consulado de Perú.',
@@ -143,8 +135,7 @@ export const services = [
         img: '/servicioDetalle/servicio.png',
         alt: '',
         nameService: 'Inscripción de grado académico',
-        description: 'Este trámite consiste en la inscripción de grados y/o títulos (de universidades, instituciones y escuelas de educación superior con rango universitario), en el Registro Nacional de Grados Titulos del Perú, los cuales aún no hayan sido inscritos en la SUNEDU (antes Asamblea Nacional de Rectores).\n El documento contará con la certificación de las autoridades competentes, incluyendo visado de Relaciones Exteriores y Apostilla de la Haya, para hacer uso del documento en el exterior.',
-        serviceExtra: 'Inscripción del Grado y/o Titulo en la SUNEDU.\n Obtención de la constancia de inscripción de la SUNEDU.\n Representación personalizada durante toda la gestión.\n Mantenerlo informado de los avances del trámite vía correo electrónico.\n Escaneo del documento gestionado antes de ser enviado a su destino.',
+        description: 'Este proceso implica registrar grados y/o títulos de instituciones de educación superior en el Registro Nacional de Grados y Títulos del Perú, siempre que no estén registrados previamente en la SUNEDU (anteriormente Asamblea Nacional de Rectores). El documento obtenido cuenta con certificación de autoridades, visado de Relaciones Exteriores y Apostilla de la Haya para validez internacional. Nuestro servicio gestiona la inscripción en la SUNEDU, obteniendo la constancia correspondiente. Ofrecemos representación personalizada, actualizaciones por correo electrónico, y escaneo del documento antes del envío. Simplificamos el proceso para el cliente, manteniéndolo informado de manera efectiva en cada etapa.',
         requirements: [
            'Titulo original',
            'Carta Poder de representación simple (que nosotros redactamos y enviamos una vez iniciada la gestión).',
@@ -161,8 +152,7 @@ export const services = [
         img: '/servicioDetalle/servicio.png',
         alt: '',
         nameService: 'Certificado de Estudios',
-        description: 'El trámite consiste en la obtención del Certificado de Estudios de Colegio (ya sea de primaria y/o secundaria), Instituto y Universidades de uno o varios años, del peruano que se encuentre en el extranjero.',
-        serviceExtra: 'Obtención del documento con las respectivas visaciones de las autoridades competentes, Relaciones Exteriores, Ministerio de Educacion y Apostilla de la Haya, para ser empleada en el exterior.\n Representación personalizada durante toda la gestión.\n Mantenerlo informado de los avances del trámite vía correo electrónico.\n Escaneo del documento gestionado antes de ser enviado a su destino.\n Envió por correo certificado del documento al país que nos indique.',
+        description: 'Implica obtener el Certificado de Estudios de primaria, secundaria, instituto o universidad de un ciudadano peruano en el extranjero. Nuestro servicio abarca la obtención del Certificado de Estudios, con visados de autoridades competentes, Relaciones Exteriores, Ministerio de Educación y Apostilla de la Haya para validez internacional. Ofrecemos representación personalizada, actualizaciones por correo electrónico, escaneo del documento antes del envío y envío seguro por correo certificado al país indicado.',
         requirements: [
           'Nombre completo del peruano en el extranjero.',
           'Nombre del colegio / distrito / departamento.',
@@ -180,8 +170,7 @@ export const services = [
         img: '/servicioDetalle/servicio.png',
         alt: '',
         nameService: 'Autenticación de firmas',
-        description: 'Este trámite consiste en la obtención de un documento que da fe que la firma del Secretario General que aparece en el/los documento(s) académicos emitidos por la institución educativa para uso del ciudadano, se encuentra registrada ante la SUNEDU. Para tal fin, se realiza la verificación respectiva en el "Registro Nacional de Firmas de Autoridades universitarias y Escuelas de Educación Superior", prevista en la Ley universitaria. El documento contará con la certificación de las autoridades competentes, incluyendo visado de Relaciones Exteriores y Apostilla de la Haya, para hacer uso del documento en el exterior.',
-        serviceExtra: 'Obtención de constancia de autenticación de firma registrada ante SUNEDU\n Representación personalizada durante toda la gestión.\n Mantenerlo informado de los avances del trámite vía correo electrónico.\n Escaneo del documento gestionado antes de ser enviado a su destino.',
+        description: 'Este trámite certifica la firma del Secretario General en documentos académicos mediante la SUNEDU. Se verifica en el "Registro Nacional de Firmas de Autoridades Universitarias y Escuelas de Educación Superior" según la Ley Universitaria. El documento obtenido cuenta con certificación para uso internacional, incluyendo visado de Relaciones Exteriores y Apostilla de la Haya. Nuestro servicio gestiona la obtención de la constancia de autenticación de firma registrada en la SUNEDU, brindando representación personalizada, actualizaciones por correo electrónico, escaneo previo al envío y despacho seguro al destino indicado. Simplificamos el proceso para el cliente, manteniéndolo informado de manera efectiva en cada fase del trámite.',
         requirements: [
          'Importante: el documento original debe de estar firmado por el Secretario General que lo emite (de no ser así, podemos realizar dicha gestión, costo a tratar dependiendo de la universidad de origen).',
          'Documento original o Copia con la firma original del secretario general.',
@@ -197,8 +186,7 @@ export const services = [
         img: '/servicioDetalle/servicio.png',
         alt: '',
         nameService: 'No renuncia a la Nacionalidad Extranjera',
-        description: 'Realizamos la obtención de la constancia de no haber renunciado a la nacionalidad extranjera pese a haber radicado muchos años en el Perú, debidamente certificada por las autoridades competentes, incluyendo visado de Relaciones Exteriores y Apostilla de la Haya, para hacer uso del documento en el exterior.',
-        serviceExtra: 'Obtención de la partida de la constancia.\n Mantenerlo informado de los avances de la gestión vía correo electrónico.\n Escaneo del documento gestionado antes de ser enviado a su destino.\n Envió por correo certificado del documento al país que nos indique.',
+        description: 'Nos encargamos de obtener la constancia de no renuncia a la nacionalidad extranjera, certificada por autoridades competentes en Perú, con visado de Relaciones Exteriores y Apostilla de la Haya para validez internacional. Nuestro servicio involucra la adquisición de la constancia, proporcionándole actualizaciones por correo electrónico. Previo al envío, escaneamos el documento y lo despachamos mediante correo certificado al país de su elección, manteniéndolo informado sobre el proceso.',
         requirements: [
           'Nombre completo del ciudadano extranjero.',
           'Documento de identidad del ciudadano extranjero.',
@@ -214,8 +202,7 @@ export const services = [
         img: '/servicioDetalle/servicio.png',
         alt: '',
         nameService: 'Movimiento Migratorio',
-        description: 'El trámite consiste en la adquisición del Certificado de Movimiento Migratorio de uno o varios años, del peruano que se encuentre en el extranjero, o del extranjero que vivio un tiempo en Peru.',
-        serviceExtra: 'Obtención del documento con las respectivas visaciones de las autoridades competentes, Relaciones Exteriores, y Apostilla de la Haya, para ser empleada en el exterior.\n Representación personalizada durante toda la gestión.\n Mantenerlo informado de los avances del trámite vía correo electrónico.\n Escaneo del documento gestionado antes de ser enviado a su destino.\n Envió por correo certificado del documento al país que nos indique.',
+        description: 'Involucra obtener el Certificado de Movimiento Migratorio de uno o varios años, ya sea de un ciudadano peruano en el extranjero o de un extranjero que residió en Perú. Nuestro servicio abarca la gestión del Certificado con visados internacionales, representación personalizada, actualizaciones por correo electrónico, escaneo previo al envío y despacho seguro por correo certificado al país indicado.',
         requirements: [
           'Nombre completo del peruano en el extranjero.',
           'Si es extranjero Nro de Pasaporte o Carnet de Extranjeria.',
@@ -231,8 +218,7 @@ export const services = [
         img: '/servicioDetalle/servicio.png',
         alt: '',
         nameService: 'Constancia de Soltería o Viudez',
-        description: 'Es el documento por medio del cual una persona acredita ser soltera o viuda, es decir sin impedimento para contraer matrimonio y se gestiona en el Registro Civil de la Municipalidad donde se encuentre inscrito su nacimiento.',
-        serviceExtra: 'Obtención del documento con las respectivas visaciones de las autoridades competentes, Relaciones Exteriores, y Apostilla de la Haya, para ser empleada en el exterior.\n Representación personalizada durante toda la gestión.\n Mantenerlo informado de los avances del trámite vía correo electrónico.\n Escaneo del documento gestionado antes de ser enviado a su destino.\n Envió por correo certificado del documento al país que nos indique.',
+        description: 'Es un certificado que confirma el estado civil de soltería o viudez, esencial para contraer matrimonio. La gestión se realiza en el Registro Civil de la Municipalidad de nacimiento. Nuestro servicio engloba la obtención del documento, con visados de autoridades, Relaciones Exteriores y Apostilla de la Haya para validez internacional. Proporcionamos representación personalizada, actualizaciones vía correo electrónico, escaneo previo al envío y despacho por correo certificado al país designado.',
         requirements: [
           'Nombre completo del solicitante.',
           'Nombre de los padres.',
@@ -250,8 +236,7 @@ export const services = [
         img: '/servicioDetalle/servicio.png',
         alt: '',
         nameService: 'Levantamiento de observaciones',
-        description: 'Este trámite consiste en brindarle la información y asesoría al compatriota que está realizando una inscripción extemporánea de su DNI a nivel consular, y dicha inscripción se encuentra observada.\n Nosotros nos apersonamos como su abogado a obtener la información que da la RENIEC y como sus representantes le damos las pautas para que levante la observación advertida, sin importar la complejidad.',
-        serviceExtra: 'Apersonarnos al departamento legal de la RENIEC.\n Indagamos los motivos de la observación.\n Gestionamos todos los documentos probatorios para levantar dicha observación.\n Asesoramos en la forma correcta de levantar la observación advertida.\n Representación personalizada durante toda la gestión.\n Mantenerlo informado de los avances del trámite vía correo electrónico.',
+        description: 'Ofrecemos asesoría y orientación a compatriotas que enfrentan observaciones en la inscripción extemporánea de su DNI a nivel consular. Como representantes legales, obtenemos información de la RENIEC y proporcionamos pautas para superar las observaciones, sin importar la complejidad del caso. Nuestro servicio implica dirigirnos al departamento legal de la RENIEC, investigar y gestionar la documentación necesaria para levantar la observación en la inscripción extemporánea del DNI. Brindamos asesoramiento detallado sobre el procedimiento correcto y ofrecemos representación personalizada durante todo el proceso. Además, mantenemos una comunicación continua con el cliente, informándolo de los avances a través de correos electrónicos.',
         requirements: [
           'Nro. de Ficha presentada a la RENIEC.',
           'Carta Poder de representación simple (que nosotros redactamos y enviamos una vez iniciada la gestión).',

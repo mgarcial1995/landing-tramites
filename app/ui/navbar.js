@@ -1,3 +1,4 @@
+import Link from 'next/link';
 export default function Navbar(props) {
     const { listNavbarItems } = props
     return (
@@ -10,11 +11,11 @@ export default function Navbar(props) {
                     {
                         listNavbarItems.map((item,i) => {
                             return (
-                                <div key={item.label} 
+                                <Link key={item.label} 
+                                href={item.src}
                                 className='w-32 text-center text-white hover:text-red-600 mx-4 p-4 hover:underline hover:underline-offset-8 decoration-2'>
                                     <p> {item.label.toUpperCase()}</p>
-                                    {/* {(item.hover || item.active) && <div className="w-full h-1 bg-red-600 mt-1"></div>} */}
-                                </div>
+                                </Link>
                             )
                         })
                     }
