@@ -11,7 +11,7 @@ import Image from 'next/image'
 
 
 const listNavbar = [
-  {label: "Servicios", src: "#services", active: false },
+  {label: "Nuestros Servicios", src: "#services", active: false },
   // {label: "Opiniones", src: "#opnions", active: false },
   // {label: "Contacto", src: "#contact", active: false },
 ]
@@ -59,10 +59,10 @@ export default function Home() {
   }
 
   return (
-    <main className="w-full h-auto flex flex-col items-center relative">
-      {
+    <main className="container w-full h-auto flex flex-col items-center relative">
+      {/* {
         showFloatNavbar && <FloatNavbar listNavbarPrincipal={listNavbar} />
-      }
+      } */}
       <div onClick={()=>handleWhatsAppClick()} className='fixed bottom-4 right-4 md:bottom-10 md:right-10 w-14 h-14 flex justify-center items-center bg-[#25D366] rounded-full cursor-pointer 
       hover:shadow-md hover:shadow-slate-400 duration-600'>
         <Image width={100} height={100} className='w-8 h-8' src="/iconos/whatsapp.svg" alt='whatsapp' />

@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${bai_jamjure.className}`}>
+      <body className={`${bai_jamjure.className} flex flex-col items-center`}>
         {children}
       </body>
     </html>

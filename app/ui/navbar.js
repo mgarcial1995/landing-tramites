@@ -13,7 +13,7 @@ export default function Navbar(props) {
                             return (
                                 <Link key={item.label} 
                                 href={item.src}
-                                className='w-32 text-center text-white hover:text-red-600 mx-4 p-4 hover:underline hover:underline-offset-8 decoration-2'>
+                                className='w-auto text-center text-white hover:text-red-600 mx-4 p-4 hover:underline hover:underline-offset-8 decoration-2'>
                                     <p> {item.label.toUpperCase()}</p>
                                 </Link>
                             )
